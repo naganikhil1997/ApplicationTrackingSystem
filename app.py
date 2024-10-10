@@ -2,7 +2,7 @@
 from flask import Flask, request, jsonify, send_file
 from pymongo import MongoClient
 from datetime import datetime
-# import fitz  # PyMuPDF
+import fitz  # PyMuPDF
 from flask_cors import CORS
 import os
 from dotenv import load_dotenv
